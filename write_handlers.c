@@ -1,16 +1,16 @@
 #include "main.h"
-/**
- * handle_write_char - Print a character
- * @c: Character to print.
- * @buffer: Buffer array for printing.
- * @flags: Active flags for formatting.
- * @width: Width specifier.
- * @precision: Precision specifier.
- * @size: Size specifier.
- *
- * Return: Number of characters printed.
- */
 
+/**
+ * handle_write_char - Prints a string
+ * @c: char types.
+ * @buffer: Buffer array to handle print
+ * @flags:  Calculates active flags.
+ * @width: get width.
+ * @precision: precision specifier
+ * @size: Size specifier
+ *
+ * Return: Number of chars printed.
+ */
 int handle_write_char(char c, char buffer[],
 		int flags, int width, int precision, int size)
 {
@@ -44,18 +44,17 @@ int handle_write_char(char c, char buffer[],
 }
 
 /**
- * write_number - Print a number
- * @is_negative: Negative indicator (0 for pos., 1 for neg.)
- * @ind: Index where number starts in buffer
- * @buffer: Buffer array for printing
- * @flags: Formatting flags
- * @width: Width specifier
- * @precision: Precision specifier
+ * write_number - Prints a string
+ * @is_negative: Lista of arguments
+ * @ind: char types.
+ * @buffer: Buffer array to handle print
+ * @flags:  Calculates active flags
+ * @width: get width.
+ * @precision: precision specifier
  * @size: Size specifier
  *
  * Return: Number of chars printed.
  */
-
 int write_number(int is_negative, int ind, char buffer[],
 		int flags, int width, int precision, int size)
 {
